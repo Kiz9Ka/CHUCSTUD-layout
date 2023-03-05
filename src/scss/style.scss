@@ -1,0 +1,6 @@
+@import "normalizes.scss";
+@import "resets.scss";
+
+@import "variables.scss"; //Переменные
+
+@import "../blocks/page/page"; // Стилизация БЭМ-блока тега HTML - page
