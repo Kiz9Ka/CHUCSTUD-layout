@@ -4,3 +4,17 @@
 @import "variables.scss"; //Переменные
 
 @import "../blocks/page/page"; // Стилизация БЭМ-блока тега HTML - page
+
+//шапка сайта
+@import "../blocks/header/header";  //Шапка
+
+@import "../blocks/header/__logo/header__logo"; //Лого
+
+//Поиск
+@import "../blocks/header/search/search"; 
+@import "../blocks/header/search/__icon/search__icon";
+@import "../blocks/header/search/__input/search__input";
+
+//Кнопки
+@import "../blocks/header/__notify-btn/header__notify-btn";
+@import "../blocks/header/__profile-btn/header__profile-btn";

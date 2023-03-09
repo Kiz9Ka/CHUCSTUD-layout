@@ -1,0 +1,13 @@
+.search__icon{
+	width:30px;
+	height:40px;
+	display:inline-block;
+	text-align:center;
+	span.search__icon{
+    position:absolute;
+    z-index:1;
+	}
+	i{
+    color:$color-w7;
+	}
+}
