@@ -658,6 +658,9 @@ pre code {
   overflow: hidden;
   position: relative;
   width: auto;
+}
+
+.search_margin {
   margin-right: auto;
 }
 
@@ -688,7 +691,6 @@ pre code {
 }
 
 .header__notify-btn {
-  width: 40px;
   height: 48px;
   border: none;
   background: transparent;
@@ -701,7 +703,6 @@ pre code {
 
 .header__profile-btn {
   margin-right: 2vw;
-  width: 40px;
   height: 48px;
   border: none;
   background: transparent;
@@ -716,8 +717,53 @@ pre code {
   max-width: 40px;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
 .navbar {
-  width: 150px;
-  min-height: 184px;
-  background-color: #F05C44;
+  width: 18vw;
+}
+
+.main-conveyor {
+  width: 50vw;
+  min-height: 671px;
+}
+
+.publication {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #DCE1E6;
+  border-radius: 26px;
+}
+
+.right-block {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+
+.right-menu {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #DCE1E6;
+  border-radius: 26px;
+}
+
+.right-filter {
+  width: 100%;
+  height: 56px;
+}
+
+.filter-btn {
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  border: 1px solid #DCE1E6;
+  border-radius: 26px;
 }/*# sourceMappingURL=style.css.map */

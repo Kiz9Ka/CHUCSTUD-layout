@@ -15,6 +15,7 @@
 
 //Поиск
 @import "../blocks/header/search/search";  //Блок поиска
+@import "../blocks/header/search/_margin/search_margin";  //Блок поиска - модификатор для отступа справа
 @import "../blocks/header/search/__icon/search__icon"; //Иконка поиска
 @import "../blocks/header/search/__input/search__input"; //Поле ввода
 
@@ -32,8 +33,12 @@
 @import "../blocks/main-container/main-conveyor/main-conveyor"; //Лента публикаций
 @import "../blocks/main-container/publication/publication"; //Публикация
 
-@import "../blocks/main-container/right-menu/right-menu"; //Правое меню
-@import "../blocks/main-container/right-filter/right-filter"; //Фильтр постов
+@import "../blocks/main-container/right-block/right-block"; //Правый блок
+@import "../blocks/main-container/right-block/right-menu/right-menu"; //Правое меню
+
+//Правый фильтр
+@import "../blocks/main-container/right-block/right-filter/right-filter";
+@import "../blocks/main-container/right-block/right-filter/filter-btn/filter-btn";
 
 
 //другое
