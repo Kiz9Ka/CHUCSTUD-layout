@@ -1,20 +1,40 @@
+//Сброс стилей по умолчанию
 @import "normalizes.scss";
 @import "resets.scss";
 
-@import "variables.scss"; //Переменные
+//Переменные
+@import "variables.scss"; 
 
-@import "../blocks/page/page"; // Стилизация БЭМ-блока тега HTML - page
+// Стилизация БЭМ-блока тега HTML - page
+@import "../blocks/page/page"; //Стили страницы
 
-//шапка сайта
+//Шапка сайта
 @import "../blocks/header/header";  //Шапка
 
 @import "../blocks/header/__logo/header__logo"; //Лого
 
 //Поиск
-@import "../blocks/header/search/search"; 
-@import "../blocks/header/search/__icon/search__icon";
-@import "../blocks/header/search/__input/search__input";
+@import "../blocks/header/search/search";  //Блок поиска
+@import "../blocks/header/search/__icon/search__icon"; //Иконка поиска
+@import "../blocks/header/search/__input/search__input"; //Поле ввода
 
 //Кнопки
-@import "../blocks/header/__notify-btn/header__notify-btn";
-@import "../blocks/header/__profile-btn/header__profile-btn";
+@import "../blocks/header/__notify-btn/header__notify-btn";  //Уведомления
+@import "../blocks/header/__profile-btn/header__profile-btn"; //Профиль
+@import "../blocks/header/__svg-profile/__svg-profile/header__svg-profile"; //Иконка профиля
+
+//Основной контейнер
+@import "../blocks/main-container/main-container"; //Контейнер
+
+//Блоки контейнера
+@import "../blocks/main-container/navbar/navbar"; //Навигационное 
+
+@import "../blocks/main-container/main-conveyor/main-conveyor"; //Лента публикаций
+@import "../blocks/main-container/publication/publication"; //Публикация
+
+@import "../blocks/main-container/right-menu/right-menu"; //Правое меню
+@import "../blocks/main-container/right-filter/right-filter"; //Фильтр постов
+
+
+//другое
+@import "../blocks/main-container/separator/separator"; //Разделительная полоса

@@ -710,4 +710,14 @@ pre code {
   background-color: #F0F2F5;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.header__svg-profile {
+  max-width: 40px;
+}
+
+.navbar {
+  width: 150px;
+  min-height: 184px;
+  background-color: #F05C44;
 }/*# sourceMappingURL=style.css.map */
