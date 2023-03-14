@@ -29,6 +29,15 @@
 
 //Блоки контейнера
 @import "../blocks/main-container/navbar/navbar"; //Навигационное 
+@import "../blocks/main-container/navbar/__menu-btn/navbar__menu-btn";
+@import "../blocks/main-container/navbar/__btn/navbar__btn";
+@import "../blocks/main-container/navbar/__text-btn/navbar__text-btn";
+@import "../blocks/main-container/navbar/__text-link/navbar__text-link";
+@import "../blocks/main-container/navbar/__text/navbar__text";
+@import "../blocks/main-container/navbar/__link-btn/navbar__link-btn";
+@import "../blocks/main-container/navbar/__about-btn/navbar__about-btn";
+@import "../blocks/main-container/navbar/__svg/navbar__svg";
+@import "../blocks/main-container/navbar/__svg/-small/navbar__svg-small";
 
 @import "../blocks/main-container/main-conveyor/main-conveyor"; //Лента публикаций
 @import "../blocks/main-container/publication/publication"; //Публикация
@@ -43,3 +52,4 @@
 
 //другое
 @import "../blocks/main-container/separator/separator"; //Разделительная полоса
+@import "../blocks/main-container/separator/-margin/separator-margin";
