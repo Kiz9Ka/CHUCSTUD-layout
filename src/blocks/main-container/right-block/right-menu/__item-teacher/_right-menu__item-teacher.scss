@@ -1,0 +1,11 @@
+.right-menu__item-teacher{
+	display: flex;
+	align-items: center;
+	width: 20.7vw;
+	border-radius: 10px;
+	&:hover{
+		background-color: $color-w2;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+}

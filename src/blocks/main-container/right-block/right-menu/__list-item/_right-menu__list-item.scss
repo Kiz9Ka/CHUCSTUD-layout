@@ -1,0 +1,14 @@
+.right-menu__list-item{
+	display: flex;
+	align-items: center;
+	width: 21.65vw;
+	color: $color-w9;
+	height: 30px;
+	padding-left: 10px;
+	border-radius: 10px;
+	&:hover{
+		background-color: $color-w2;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+}

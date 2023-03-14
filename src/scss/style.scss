@@ -29,27 +29,61 @@
 
 //Блоки контейнера
 @import "../blocks/main-container/navbar/navbar"; //Навигационное 
-@import "../blocks/main-container/navbar/__menu-btn/navbar__menu-btn";
-@import "../blocks/main-container/navbar/__btn/navbar__btn";
-@import "../blocks/main-container/navbar/__text-btn/navbar__text-btn";
-@import "../blocks/main-container/navbar/__text-link/navbar__text-link";
-@import "../blocks/main-container/navbar/__text/navbar__text";
-@import "../blocks/main-container/navbar/__link-btn/navbar__link-btn";
-@import "../blocks/main-container/navbar/__about-btn/navbar__about-btn";
-@import "../blocks/main-container/navbar/__svg/navbar__svg";
-@import "../blocks/main-container/navbar/__svg/-small/navbar__svg-small";
+@import "../blocks/main-container/navbar/__menu-btn/navbar__menu-btn"; //Меню кнопок
+@import "../blocks/main-container/navbar/__btn/navbar__btn"; // Кнопки
+@import "../blocks/main-container/navbar/__text-btn/navbar__text-btn"; // Текст кнопки
+@import "../blocks/main-container/navbar/__text-link/navbar__text-link"; //Ссылка текст
+@import "../blocks/main-container/navbar/__text/navbar__text"; //Текст
+@import "../blocks/main-container/navbar/__link-btn/navbar__link-btn"; //Кнопка ссылка
+@import "../blocks/main-container/navbar/__about-btn/navbar__about-btn"; //Нижняя навигация
+@import "../blocks/main-container/navbar/__svg/navbar__svg"; //Иконки навигации
+@import "../blocks/main-container/navbar/__svg/-small/navbar__svg-small"; //Модификатор иконка меньше
 
 @import "../blocks/main-container/main-conveyor/main-conveyor"; //Лента публикаций
-@import "../blocks/main-container/publication/publication"; //Публикация
+@import "../blocks/main-container/main-conveyor/publication/publication"; //Публикация
+@import "../blocks/main-container/main-conveyor/publication/__header/publication__header"; //Шапка публикации
+@import "../blocks/main-container/main-conveyor/publication/__header-icon/publication__header-icon"; //Иконка автора
+@import "../blocks/main-container/main-conveyor/publication/__info/publication__info"; // Обёртка Информации
+@import "../blocks/main-container/main-conveyor/publication/__avtor-name/publication__avtor-name"; // Имя автора
+@import "../blocks/main-container/main-conveyor/publication/__data/publication__data"; //Дата публикации
+@import "../blocks/main-container/main-conveyor/publication/__body/publication__body"; //Тело публикации
+@import "../blocks/main-container/main-conveyor/publication/__counter/publication__counter"; //Счётчик просмотров
+@import "../blocks/main-container/main-conveyor/publication/__favorites-btn/publication__favorites-btn"; //Избранное
+@import "../blocks/main-container/main-conveyor/publication/__footer/publication__footer"; //Подвал публикации
+@import "../blocks/main-container/main-conveyor/publication/__comment-btn/publication__comment-btn"; //кнопка Комментария
+@import "../blocks/main-container/main-conveyor/publication/__img-container/publication__img-container"; //Контейнер для картинки
+@import "../blocks/main-container/main-conveyor/publication/__img/publication__img"; //Картинка
+@import "../blocks/main-container/main-conveyor/publication/__like-btn/publication__like-btn"; //Кнопка лайка
+@import "../blocks/main-container/main-conveyor/publication/__svg-icon/publication__svg-icon"; //Иконки кнопок
+@import "../blocks/main-container/main-conveyor/publication/__svg/publication__svg"; //Иконки
+@import "../blocks/main-container/main-conveyor/publication//__text/publication__text"; //Текст в кнопках
+@import "../blocks/main-container/main-conveyor/publication/__avtor-text/publication__avtor-text"; //Текст публикации
+@import "../blocks/main-container/main-conveyor/publication/__text/-small/publication__text-small"; //Модификатор маленького текста
 
+//Правый блок
 @import "../blocks/main-container/right-block/right-block"; //Правый блок
 @import "../blocks/main-container/right-block/right-menu/right-menu"; //Правое меню
+@import "../blocks/main-container/right-block/right-menu/__bottom-menu/right-menu__bottom-menu";
+@import "../blocks/main-container/right-block/right-menu/__img/right-menu__img";
+@import "../blocks/main-container/right-block/right-menu/__item-teacher/right-menu__item-teacher";
+@import "../blocks/main-container/right-block/right-menu/__list-item/right-menu__list-item";
+@import "../blocks/main-container/right-block/right-menu/__list-teacher/right-menu__list-teacher";
+@import "../blocks/main-container/right-block/right-menu/__list/right-menu__list";
+@import "../blocks/main-container/right-block/right-menu/__plus-btn/right-menu__plus-btn";
+@import "../blocks/main-container/right-block/right-menu//__teacher-img/right-menu__teacher-img";
+@import "../blocks/main-container/right-block/right-menu/__text-list/right-menu__text-list";
+@import "../blocks/main-container/right-block/right-menu/__text-wrapper/right-menu__text-wrapper";
+@import "../blocks/main-container/right-block/right-menu/__text/right-menu__text";
 
 //Правый фильтр
 @import "../blocks/main-container/right-block/right-filter/right-filter";
 @import "../blocks/main-container/right-block/right-filter/filter-btn/filter-btn";
+@import "../blocks/main-container/right-block/right-filter/filter-btn/__icon-drop/filter-btn__icon-drop";
+@import "../blocks/main-container/right-block/right-filter/filter-btn/__icon/filter-btn__icon";
+@import "../blocks/main-container/right-block/right-filter/filter-btn/__text/filter-btn__text";
 
 
 //другое
 @import "../blocks/main-container/separator/separator"; //Разделительная полоса
+@import "../blocks/main-container/separator/-right/separator-right";
 @import "../blocks/main-container/separator/-margin/separator-margin";
