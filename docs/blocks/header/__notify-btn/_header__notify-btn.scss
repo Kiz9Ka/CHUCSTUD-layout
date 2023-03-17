@@ -1,0 +1,12 @@
+.header__notify-btn{
+	height: 48px;
+	width: 48px;
+	padding: 0;
+	border: none;
+	background:transparent;
+	&:hover{
+		background-color: $color-w2;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+}

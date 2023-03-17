@@ -1,0 +1,14 @@
+.header{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 50px;
+	background-color: $color-w1;
+	border-width: 1px 0px;
+	border-style: solid;
+	border-color: $color-w5;
+	padding-left: 1.3vw;
+	@media (min-width: $screen-xxl){
+		height: 75px;
+	}
+}
