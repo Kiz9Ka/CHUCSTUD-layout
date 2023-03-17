@@ -734,12 +734,6 @@ pre code {
 .navbar {
   width: 18vw;
 }
-@media (min-width: 1800px) {
-  .navbar {
-    width: 14vw;
-  }
-}
-
 .navbar__menu-btn {
   padding-left: 0px;
   margin-bottom: 0px;
@@ -849,12 +843,6 @@ pre code {
   width: 50vw;
   min-height: 671px;
 }
-@media (min-width: 1800px) {
-  .main-conveyor {
-    width: 30vw;
-  }
-}
-
 .publication {
   width: 100%;
   background: #FFFFFF;
@@ -991,12 +979,6 @@ pre code {
   flex-direction: column;
   width: 25vw;
 }
-@media (min-width: 1800px) {
-  .right-block {
-    width: 15vw;
-  }
-}
-
 .right-menu {
   display: flex;
   flex-direction: column;
