@@ -7,5 +7,8 @@
 	border-width: 1px 0px;
 	border-style: solid;
 	border-color: $color-w5;
-	padding-left: 20px;
+	padding-left: 1.3vw;
+	@media (min-width: $screen-xxl){
+		height: 75px;
+	}
 }

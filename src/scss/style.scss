@@ -4,6 +4,7 @@
 
 //Переменные
 @import "variables.scss"; 
+@import "mixin.scss"; 
 
 // Стилизация БЭМ-блока тега HTML - page
 @import "../blocks/page/page"; //Стили страницы
@@ -21,8 +22,9 @@
 
 //Кнопки
 @import "../blocks/header/__notify-btn/header__notify-btn";  //Уведомления
+@import "../blocks/header/__svg-notify/header__svg-notify";
 @import "../blocks/header/__profile-btn/header__profile-btn"; //Профиль
-@import "../blocks/header/__svg-profile/__svg-profile/header__svg-profile"; //Иконка профиля
+@import "../blocks/header/__svg-profile/header__svg-profile";
 
 //Основной контейнер
 @import "../blocks/main-container/main-container"; //Контейнер
@@ -37,7 +39,7 @@
 @import "../blocks/main-container/navbar/__link-btn/navbar__link-btn"; //Кнопка ссылка
 @import "../blocks/main-container/navbar/__about-btn/navbar__about-btn"; //Нижняя навигация
 @import "../blocks/main-container/navbar/__svg/navbar__svg"; //Иконки навигации
-@import "../blocks/main-container/navbar/__svg/-small/navbar__svg-small"; //Модификатор иконка меньше
+@import "../blocks/main-container/navbar/__svg/_small/navbar__svg_small"; //Модификатор иконка меньше
 
 @import "../blocks/main-container/main-conveyor/main-conveyor"; //Лента публикаций
 @import "../blocks/main-container/main-conveyor/publication/publication"; //Публикация
@@ -85,5 +87,5 @@
 
 //другое
 @import "../blocks/main-container/separator/separator"; //Разделительная полоса
-@import "../blocks/main-container/separator/-right/separator-right";
-@import "../blocks/main-container/separator/-margin/separator-margin";
+@import "../blocks/main-container/separator/_right/separator_right";
+@import "../blocks/main-container/separator/_margin/separator_margin";

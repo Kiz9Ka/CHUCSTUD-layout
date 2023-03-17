@@ -5,6 +5,9 @@
 	align-items: center;
 	width: 17vw;
 	height: 30px;
+	@media (min-width: $screen-xxl){
+		height: 45px;
+	}
 	&:hover{
 		border-radius: 5px;
 		transition: 0.3s;

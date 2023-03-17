@@ -1,3 +1,6 @@
 .navbar{
 	width: 18vw;
+	@media (min-width: $screen-xxl){
+		width: 14vw;
+	}
 }

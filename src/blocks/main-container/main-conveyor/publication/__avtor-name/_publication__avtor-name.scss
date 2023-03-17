@@ -1,6 +1,6 @@
 .publication__avtor-name{
 	margin: 0;
-	font-size: $font-size-h5;
+	@include adaptiv-font(20, 8);
 	color: $color-c3;
 	font-weight: normal;
 }

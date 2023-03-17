@@ -641,7 +641,12 @@ pre code {
   border-width: 1px 0px;
   border-style: solid;
   border-color: #DCE1E6;
-  padding-left: 20px;
+  padding-left: 1.3vw;
+}
+@media (min-width: 1800px) {
+  .header {
+    height: 75px;
+  }
 }
 
 .header__logo {
@@ -649,17 +654,15 @@ pre code {
 }
 
 .search {
-  height: 40px;
+  height: 90%;
   display: inline-block;
   border-radius: 11px;
   background: #F2F3F5;
-  line-height: 40px;
-  font-size: 18px;
+  line-height: 90%;
+  font-size: calc(10px + 10 * ((100vw - 320px) / 1120));
   overflow: hidden;
   position: relative;
-  width: auto;
 }
-
 .search_margin {
   margin-right: auto;
 }
@@ -680,15 +683,16 @@ pre code {
 }
 
 .search__input {
-  width: 20vw;
-  height: 40px;
+  height: 100%;
   border: none;
   outline: none;
-  color: #8A94A0;
   vertical-align: top;
   position: relative;
   z-index: 2;
   background: transparent;
+  margin-right: 0.4vw;
+  font-size: calc(10px + 10 * ((100vw - 320px) / 1120));
+  color: #8A94A0;
 }
 
 .header__notify-btn {
@@ -706,8 +710,8 @@ pre code {
 
 .header__profile-btn {
   margin-right: 2vw;
-  height: 48px;
-  width: 48px;
+  width: 3.3vw;
+  height: 100%;
   padding: 0;
   border: none;
   background: transparent;
@@ -716,10 +720,6 @@ pre code {
   background-color: #F0F2F5;
   transition: 0.3s;
   cursor: pointer;
-}
-
-.header__svg-profile {
-  max-width: 40px;
 }
 
 .main-container {
@@ -734,6 +734,11 @@ pre code {
 .navbar {
   width: 18vw;
 }
+@media (min-width: 1800px) {
+  .navbar {
+    width: 14vw;
+  }
+}
 
 .navbar__menu-btn {
   padding-left: 0px;
@@ -747,6 +752,11 @@ pre code {
   align-items: center;
   width: 17vw;
   height: 30px;
+}
+@media (min-width: 1800px) {
+  .navbar__btn {
+    height: 45px;
+  }
 }
 .navbar__btn:hover {
   border-radius: 5px;
@@ -768,10 +778,20 @@ pre code {
   font-size: 0.85em;
   color: #8A94A0;
 }
+@media (min-width: 1800px) {
+  .navbar__text-link {
+    font-size: 18px;
+  }
+}
 
 .navbar__text {
   text-decoration: none;
   color: #131313;
+}
+@media (min-width: 1800px) {
+  .navbar__text {
+    font-size: 24px;
+  }
 }
 
 .navbar__link-btn {
@@ -782,6 +802,11 @@ pre code {
   padding: 0;
   font-size: 0.85em;
   color: #8A94A0;
+}
+@media (min-width: 1800px) {
+  .navbar__link-btn {
+    font-size: 18px;
+  }
 }
 .navbar__link-btn:hover {
   cursor: pointer;
@@ -798,18 +823,36 @@ pre code {
 .navbar__svg {
   margin-right: 1vw;
 }
+@media (min-width: 1800px) {
+  .navbar__svg {
+    width: 35px;
+    height: 35px;
+  }
+}
 
-.navbar__svg-small {
+.navbar__svg_small {
   margin: 0;
   width: 8px;
   height: 8px;
   margin-left: 0.5vw;
   filter: invert(66%) sepia(16%) saturate(268%) hue-rotate(173deg) brightness(87%) contrast(79%);
 }
+@media (min-width: 1800px) {
+  .navbar__svg_small {
+    width: 12px;
+    height: 12px;
+    margin-left: 0.2vw;
+  }
+}
 
 .main-conveyor {
   width: 50vw;
   min-height: 671px;
+}
+@media (min-width: 1800px) {
+  .main-conveyor {
+    width: 30vw;
+  }
 }
 
 .publication {
@@ -835,7 +878,7 @@ pre code {
 
 .publication__avtor-name {
   margin: 0;
-  font-size: 16px;
+  font-size: calc(8px + 12 * ((100vw - 320px) / 1120));
   color: #2A5895;
   font-weight: normal;
 }
@@ -948,13 +991,18 @@ pre code {
   flex-direction: column;
   width: 25vw;
 }
+@media (min-width: 1800px) {
+  .right-block {
+    width: 15vw;
+  }
+}
 
 .right-menu {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
-  width: 25vw;
+  width: 100%;
   margin-bottom: 10px;
   background: #FFFFFF;
   border: 1px solid #DCE1E6;
@@ -965,7 +1013,7 @@ pre code {
 .right-menu__item-teacher {
   display: flex;
   align-items: center;
-  width: 20.7vw;
+  width: 100%;
   border-radius: 10px;
 }
 .right-menu__item-teacher:hover {
@@ -975,13 +1023,13 @@ pre code {
 }
 
 .right-menu__list-item {
+  width: 100%;
+  min-height: 30px;
   display: flex;
   align-items: center;
-  width: 21.65vw;
-  color: #626D7A;
-  height: 30px;
   padding-left: 10px;
   border-radius: 10px;
+  color: #626D7A;
 }
 .right-menu__list-item:hover {
   background-color: #F0F2F5;
@@ -1004,7 +1052,6 @@ pre code {
   padding-left: 9px;
   margin-bottom: 10px;
 }
-
 .right-menu__plus-btn {
   margin-right: 10px;
   padding: 0;
@@ -1053,7 +1100,7 @@ pre code {
 .filter-btn {
   display: flex;
   align-items: center;
-  width: 25vw;
+  width: 100%;
   height: 50px;
   padding-left: 15px;
   background: #FFFFFF;
@@ -1085,14 +1132,24 @@ pre code {
 
 .separator {
   margin: 0px;
-  width: 22vw;
+  width: 94%;
 }
 
-.separator-right {
+.separator_right {
   margin-bottom: 10px;
 }
+@media (min-width: 1800px) {
+  .separator_right {
+    width: 90%;
+  }
+}
 
-.separator-margin {
+.separator_margin {
   width: 14.5vw;
   margin: 0.5em 0 0.5em 1.5em;
+}
+@media (min-width: 1800px) {
+  .separator_margin {
+    width: 11vw;
+  }
 }/*# sourceMappingURL=style.css.map */
