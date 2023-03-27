@@ -1,0 +1,9 @@
+.wrapper-main{
+	grid-area: main;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+	grid-template-areas: 
+	"navbar navbar setting setting none";
+	justify-items: end;
+	padding-top: 20px;
+}

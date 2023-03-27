@@ -6,6 +6,9 @@
 @import "variables.scss"; 
 @import "mixin.scss"; 
 
+//Шрифты
+@import "fonts.scss"; 
+
 // Стилизация БЭМ-блока тега HTML - page
 @import "../blocks/page/page"; //Стили страницы
 
@@ -83,6 +86,37 @@
 @import "../blocks/main-container/right-block/right-filter/filter-btn/__icon-drop/filter-btn__icon-drop";
 @import "../blocks/main-container/right-block/right-filter/filter-btn/__icon/filter-btn__icon";
 @import "../blocks/main-container/right-block/right-filter/filter-btn/__text/filter-btn__text";
+
+
+//Вторая страница личный аккаунт
+//Тело
+@import "../blocks/body/body";
+//Шапка
+@import "../blocks/header/header_grid/header_grid";
+@import "../blocks/header/__logo/_margin/header__logo_margin";
+@import "../blocks/header/__back-btn/header__back-btn";
+@import "../blocks/header/__profile-btn/_margin/header__profile-btn_margin";
+//Основной контейнер
+@import "../blocks/wrapper-main/wrapper-main";
+
+//Левая навигация
+@import "../blocks/main-container/navbar/_grid/navbar_grid";
+@import "../blocks/main-container/navbar/__svg/_medium/navbar__svg_medium";
+//Правый блок
+@import "../blocks/wrapper-main/setting-block/setting-block";
+@import "../blocks/wrapper-main/setting-block/__panel/setting-block__panel";
+@import "../blocks/wrapper-main/setting-block/__btn-panel/setting-block__btn-panel";
+@import "../blocks/wrapper-main/setting-block/__img/setting-block__img";
+@import "../blocks/wrapper-main/setting-block/__svg/setting-block__svg";
+@import "../blocks/wrapper-main/setting-block/__text/setting-block__text";
+@import "../blocks/wrapper-main/setting-block/__text-telephone/setting-block__text-telephone";
+@import "../blocks/wrapper-main/setting-block/input/input";
+@import "../blocks/wrapper-main/setting-block/input/__text/input__text";
+@import "../blocks/wrapper-main/setting-block/__panel/_mod1/setting-block__panel_mod1";
+@import "../blocks/wrapper-main/setting-block/__panel/_mod2/setting-block__panel_mod2";
+@import "../blocks/wrapper-main/setting-block/__input-btn/setting-block__input-btn";
+@import "../blocks/wrapper-main/setting-block/__svg/_big/setting-block__svg_big";
+@import "../blocks/wrapper-main/setting-block/__text/_small/setting-block__text_small";
 
 
 //другое
