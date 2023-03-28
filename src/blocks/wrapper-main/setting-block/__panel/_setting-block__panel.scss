@@ -1,12 +1,5 @@
 .setting-block__panel{
 	display: grid;
-	grid-template-columns: 60px 2fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas: 
-	"img text btn"
-	"img text_tel btn";
-	justify-items: center;
-	align-items: center;
 	padding-left: 15px;
 	margin-bottom: 20px;
 	width: 48.5vw;
