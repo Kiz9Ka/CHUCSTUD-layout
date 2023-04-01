@@ -44,16 +44,20 @@
 @import "../blocks/main-container/navbar/__svg/navbar__svg"; //Иконки навигации
 @import "../blocks/main-container/navbar/__svg/_small/navbar__svg_small"; //Модификатор иконка меньше
 
+//Публикация
 @import "../blocks/main-container/main-conveyor/main-conveyor"; //Лента публикаций
 @import "../blocks/main-container/main-conveyor/publication/publication"; //Публикация
+//Шапка публикации
 @import "../blocks/main-container/main-conveyor/publication/__header/publication__header"; //Шапка публикации
 @import "../blocks/main-container/main-conveyor/publication/__header-icon/publication__header-icon"; //Иконка автора
 @import "../blocks/main-container/main-conveyor/publication/__info/publication__info"; // Обёртка Информации
 @import "../blocks/main-container/main-conveyor/publication/__avtor-name/publication__avtor-name"; // Имя автора
 @import "../blocks/main-container/main-conveyor/publication/__data/publication__data"; //Дата публикации
+//Тело публикации
 @import "../blocks/main-container/main-conveyor/publication/__body/publication__body"; //Тело публикации
 @import "../blocks/main-container/main-conveyor/publication/__counter/publication__counter"; //Счётчик просмотров
 @import "../blocks/main-container/main-conveyor/publication/__favorites-btn/publication__favorites-btn"; //Избранное
+//Подвал публикации
 @import "../blocks/main-container/main-conveyor/publication/__footer/publication__footer"; //Подвал публикации
 @import "../blocks/main-container/main-conveyor/publication/__comment-btn/publication__comment-btn"; //кнопка Комментария
 @import "../blocks/main-container/main-conveyor/publication/__img-container/publication__img-container"; //Контейнер для картинки
@@ -68,9 +72,9 @@
 //Правый блок
 @import "../blocks/main-container/right-block/right-block"; //Правый блок
 @import "../blocks/main-container/right-block/right-menu/right-menu"; //Правое меню
-@import "../blocks/main-container/right-block/right-menu/__bottom-menu/right-menu__bottom-menu";
-@import "../blocks/main-container/right-block/right-menu/__img/right-menu__img";
-@import "../blocks/main-container/right-block/right-menu/__item-teacher/right-menu__item-teacher";
+@import "../blocks/main-container/right-block/right-menu/__bottom-menu/right-menu__bottom-menu"; //Кнопки меню
+@import "../blocks/main-container/right-block/right-menu/__img/right-menu__img"; //Изображение меню
+@import "../blocks/main-container/right-block/right-menu/__item-teacher/right-menu__item-teacher"; //Кнопки преподавателей
 @import "../blocks/main-container/right-block/right-menu/__list-item/right-menu__list-item";
 @import "../blocks/main-container/right-block/right-menu/__list-teacher/right-menu__list-teacher";
 @import "../blocks/main-container/right-block/right-menu/__list/right-menu__list";
@@ -91,38 +95,28 @@
 //Вторая страница личный аккаунт
 //Тело
 @import "../blocks/body/body";
+
 //Шапка
+@import "../blocks/header/__back-btn/header__back-btn";
+
+//Шапка модификаторы
 @import "../blocks/header/header_grid/header_grid";
 @import "../blocks/header/__logo/_margin/header__logo_margin";
-@import "../blocks/header/__back-btn/header__back-btn";
 @import "../blocks/header/__profile-btn/_margin/header__profile-btn_margin";
+
 //Основной контейнер
 @import "../blocks/wrapper-main/wrapper-main";
 
-//Левая навигация
+//Левая навигация модификаторы
 @import "../blocks/main-container/navbar/_grid/navbar_grid";
 @import "../blocks/main-container/navbar/__svg/_medium/navbar__svg_medium";
+
 //Правый блок
 @import "../blocks/wrapper-main/setting-block/setting-block";
 @import "../blocks/wrapper-main/setting-block/__panel/setting-block__panel";
 @import "../blocks/wrapper-main/setting-block/__btn-panel/setting-block__btn-panel";
-@import "../blocks/wrapper-main/setting-block/__img/setting-block__img";
-@import "../blocks/wrapper-main/setting-block/__img/_active/setting-block__img_active";
-@import "../blocks/wrapper-main/setting-block/__svg/setting-block__svg";
-@import "../blocks/wrapper-main/setting-block/__text/setting-block__text";
-@import "../blocks/wrapper-main/setting-block/__text/_center/setting-block__text_center";
-@import "../blocks/wrapper-main/setting-block/__text-telephone/setting-block__text-telephone";
-@import "../blocks/wrapper-main/setting-block/input/input";
-@import "../blocks/wrapper-main/setting-block/__img/_margin/setting-block__img_margin";
-@import "../blocks/wrapper-main/setting-block/input/__text/input__text";
-@import "../blocks/wrapper-main/setting-block/toggle/_grid1/toggle_grid1";
-@import "../blocks/wrapper-main/setting-block/toggle/_grid2/toggle_grid2";
-@import "../blocks/wrapper-main/setting-block/toggle/_grid3/toggle_grid3";
-@import "../blocks/wrapper-main/setting-block/__img/_grid/setting-block__img_grid";
-@import "../blocks/wrapper-main/setting-block/__text/_add1/setting-block__text_add1";
-@import "../blocks/wrapper-main/setting-block/__text/_add2/setting-block__text_add2";
-@import "../blocks/wrapper-main/setting-block/__text/_add3/setting-block__text_add3";
-@import "../blocks/wrapper-main/setting-block/__text/_margin/setting-block__text_margin";
+
+//Панели модификатор
 @import "../blocks/wrapper-main/setting-block/__panel/_mod0/setting-block__panel_mod0";
 @import "../blocks/wrapper-main/setting-block/__panel/_mod1/setting-block__panel_mod1";
 @import "../blocks/wrapper-main/setting-block/__panel/_mod2/setting-block__panel_mod2";
@@ -132,15 +126,77 @@
 @import "../blocks/wrapper-main/setting-block/__panel/_mod6/setting-block__panel_mod6";
 @import "../blocks/wrapper-main/setting-block/__panel/_mod7/setting-block__panel_mod7";
 @import "../blocks/wrapper-main/setting-block/__panel/_mod8/setting-block__panel_mod8";
-@import "../blocks/wrapper-main/setting-block/__input-btn/setting-block__input-btn";
-@import "../blocks/wrapper-main/setting-block/__svg/_big/setting-block__svg_big";
+
+//Текст
+@import "../blocks/wrapper-main/setting-block/__text/setting-block__text";
+@import "../blocks/wrapper-main/setting-block/__text-telephone/setting-block__text-telephone";
+
+//Текст модификаторы
+@import "../blocks/wrapper-main/setting-block/__text/_add1/setting-block__text_add1";
+@import "../blocks/wrapper-main/setting-block/__text/_add2/setting-block__text_add2";
+@import "../blocks/wrapper-main/setting-block/__text/_add3/setting-block__text_add3";
+@import "../blocks/wrapper-main/setting-block/__text/_margin/setting-block__text_margin";
+@import "../blocks/wrapper-main/setting-block/__text/_center/setting-block__text_center";
 @import "../blocks/wrapper-main/setting-block/__text/_small/setting-block__text_small";
 
+//Картинки
+@import "../blocks/wrapper-main/setting-block/__img/setting-block__img";
+@import "../blocks/wrapper-main/setting-block/__svg/setting-block__svg";
+//Картинки модификатор
+@import "../blocks/wrapper-main/setting-block/__img/_active/setting-block__img_active";
+@import "../blocks/wrapper-main/setting-block/__img/_margin/setting-block__img_margin";
+@import "../blocks/wrapper-main/setting-block/__img/_grid/setting-block__img_grid";
+@import "../blocks/wrapper-main/setting-block/__svg/_big/setting-block__svg_big";
+
+//Поле ввода
+@import "../blocks/wrapper-main/setting-block/input/input";
+@import "../blocks/wrapper-main/setting-block/input/__text/input__text";
+@import "../blocks/wrapper-main/setting-block/__input-btn/setting-block__input-btn";
+
+//Тогл
 @import "../blocks/wrapper-main/setting-block/toggle/toggle";
 @import "../blocks/wrapper-main/setting-block/toggle/__item/toggle__item";
 
+//Тогл модификатор
+@import "../blocks/wrapper-main/setting-block/toggle/_grid1/toggle_grid1";
+@import "../blocks/wrapper-main/setting-block/toggle/_grid2/toggle_grid2";
+@import "../blocks/wrapper-main/setting-block/toggle/_grid3/toggle_grid3";
 
-//другое
-@import "../blocks/main-container/separator/separator"; //Разделительная полоса
+//Блок оценок
+//Блок заголовок
+@import "../blocks/wrapper-main/setting-block/__panel-title/setting-block__panel-title";
+@import "../blocks/wrapper-main/setting-block/__title/setting-block__title";
+
+//Блок курсы
+@import "../blocks/wrapper-main/setting-block/__panel-course/setting-block__panel-course";
+@import "../blocks/wrapper-main/setting-block/__course/setting-block__course";
+
+//Блок оценок
+@import "../blocks/wrapper-main/setting-block/__panel-score/setting-block__panel-score";
+@import "../blocks/wrapper-main/setting-block/__block-lesson/setting-block__block-lesson";
+@import "../blocks/wrapper-main/setting-block/__block-color/setting-block__block-color";
+@import "../blocks/wrapper-main/setting-block/__lesson/setting-block__lesson";
+@import "../blocks/wrapper-main/setting-block/__average-score/setting-block__average-score";
+@import "../blocks/wrapper-main/setting-block/__percentage-visits/setting-block__percentage-visits";
+
+//Блок оценок модификаторы
+
+//Размер блока
+@import "../blocks/wrapper-main/setting-block/__block-lesson/_small/setting-block__block-lesson_small";
+@import "../blocks/wrapper-main/setting-block/__block-lesson//_medium/setting-block__block-lesson_medium";
+@import "../blocks/wrapper-main/setting-block/__block-lesson/_large/setting-block__block-lesson_large";
+
+//Цвет выделения
+@import "../blocks/wrapper-main/setting-block/__block-color/_green/setting-block__block-color_green";
+@import "../blocks/wrapper-main/setting-block/__block-color/_red/setting-block__block-color_red";
+@import "../blocks/wrapper-main/setting-block/__block-color//_yellow/setting-block__block-color_yellow";
+
+////Другое
+
+
+//Разделительная полоса
+@import "../blocks/main-container/separator/separator"; 
+@import "../blocks/main-container/separator/__course/separator__course";
+//Разделительная полоса модификаторы
 @import "../blocks/main-container/separator/_right/separator_right";
 @import "../blocks/main-container/separator/_margin/separator_margin";

@@ -14,6 +14,7 @@
 <body class="body">
 	<header class="header header_grid">
 		<button class="header__back-btn">
+			<a href="../index.html" class="link">Главная</a>
 			<img src="../img/pers-account/header/back.svg" alt="Иконка назад" class="header__svg-back">
 		</button>
 			<div class="header__logo header__logo_margin">
@@ -82,11 +83,9 @@
 						<img src="../img/pers-account/setting-block/arrowforward.svg" alt="Иконка отправки" class="setting-block__svg">
 					</button>
 				</div>
-
 				<div class="setting-block__panel setting-block__panel_mod3">
 					<span class="setting-block__text setting-block__text_center">Настройка уведомлений</span>
 				</div>
-
 				<div class="setting-block__panel setting-block__panel_mod4">
 					<div class="setting-block__img setting-block__img_margin">
 						<img src="../img/pers-account/setting-block/telegram.svg" alt="Иконка телеграмма" class="setting-block__svg">
@@ -96,7 +95,6 @@
 						<img src="../img/pers-account/setting-block/close-cross.svg" alt="Иконка крестика" class="setting-block__svg">
 					</div>
 				</div>
-
 				<div class="setting-block__panel setting-block__panel_mod5">
 					<div class="setting-block__img setting-block__img_margin">
 						<img src="../img/pers-account/setting-block/pushnotifications.svg" alt="Иконка уведомлений" class="setting-block__svg">
@@ -106,43 +104,88 @@
 						<img src="../img/pers-account/setting-block/Checkmark.svg" alt="Иконка галочки" class="setting-block__svg">
 					</div>
 				</div>
-
 				<div class="setting-block__panel setting-block__panel_mod6">
-					<div class="setting-block__img">
-						<img src="../img/pers-account/setting-block/Checkmark.svg" alt="Иконка галочки" class="setting-block__svg">
-					</div>
 					<div class="setting-block__img">
 						<img src="../img/pers-account/setting-block/vk-social.svg" alt="Иконка вконтакте" class="setting-block__svg">
 					</div>
-					<span class="setting-block__text setting-block__text_add1">ВКонтакте бот</span>
-
+					<span class="setting-block__text">ВКонтакте бот</span>
 					<div class="toggle toggle_grid1">
-						<input id="Public" type="checkbox"/>
+						<input id="Public" class="toggle__checkbox" type="checkbox"/>
 						<label class="toggle__item" for="Public"></label>
 					</div>
-
-					<span class="setting-block__text setting-block__text_add2">Новые публикации</span>
-
+					<span class="setting-block__text setting-block__text_add1">Новые публикации</span>
 					<div class="toggle toggle_grid2">
-						<input id="Raspis" type="checkbox"/>
+						<input id="Raspis" class="toggle__checkbox" type="checkbox"/>
 						<label class="toggle__item" for="Raspis"></label>
 					</div>
-
-					<span class="setting-block__text setting-block__text_add3">Изменение в расписании</span>
-
+					<span class="setting-block__text setting-block__text_add2">Изменение в расписании</span>
 					<div class="toggle toggle_grid3">
-						<input id="Comm" type="checkbox"/>
+						<input id="Comm" class="toggle__checkbox" type="checkbox"/>
 						<label class="toggle__item" for="Comm"></label>
 					</div>
-					
-					<span class="setting-block__text">Ответ на комментарий</span>
+					<span class="setting-block__text setting-block__text_add3">Ответ на комментарий</span>
 					<div class="setting-block__img setting-block__img_grid">
 						<img src="../img/pers-account/setting-block/close-cross.svg" alt="Иконка крестика" class="setting-block__svg">
 					</div>
-					<button class="setting-block__btn-panel"> Подключить</button>
+					<button class="setting-block__input-btn">
+						<img src="../img/pers-account/setting-block/arrowforward.svg" alt="Иконка отправки" class="setting-block__svg">
+					</button>
 				</div>
 
 				<div class="setting-block__panel setting-block__panel_mod7">
+					<div class="setting-block__panel-title">
+						<span class="setting-block__title">Оценка успеваемости</span>
+					</div>
+					<div class="setting-block__panel-course">
+						<span class="setting-block__course">1 курс</span>
+						<span class="setting-block__course">2 курс</span>
+						<span class="setting-block__course">3 курс</span>
+						<span class="setting-block__course">4 курс</span>
+						<hr class="separator__course">
+					</div>
+					<div class="setting-block__panel-score">
+
+						<div class="setting-block__block-lesson setting-block__block-lesson_small">
+							<div class="setting-block__block-color setting-block__block-color_yellow"></div>
+							<span class="setting-block__lesson">Математика</span>
+							<span class="setting-block__average-score">3.5</span>
+							<span class="setting-block__percentage-visits">76%</span>
+						</div>
+						
+						<div class="setting-block__block-lesson setting-block__block-lesson_small">
+							<div class="setting-block__block-color setting-block__block-color_yellow"></div>
+							<span class="setting-block__lesson">Математика</span>
+							<span class="setting-block__average-score">3.5</span>
+							<span class="setting-block__percentage-visits">76%</span>
+						</div>
+						<div class="setting-block__block-lesson setting-block__block-lesson_small">
+							<div class="setting-block__block-color setting-block__block-color_yellow"></div>
+							<span class="setting-block__lesson">Математика</span>
+							<span class="setting-block__average-score">3.5</span>
+							<span class="setting-block__percentage-visits">76%</span>
+						</div>
+
+						<div class="setting-block__block-lesson setting-block__block-lesson_medium">
+							<div class="setting-block__block-color setting-block__block-color_green"></div>
+							<span class="setting-block__lesson">Информационные технологии</span>
+							<span class="setting-block__average-score">4.9</span>
+							<span class="setting-block__percentage-visits">95%</span>
+						</div>
+						
+						<div class="setting-block__block-lesson setting-block__block-lesson_medium">
+							<div class="setting-block__block-color setting-block__block-color_green"></div>
+							<span class="setting-block__lesson">Информационные технологии</span>
+							<span class="setting-block__average-score">4.9</span>
+							<span class="setting-block__percentage-visits">95%</span>
+						</div>
+
+						<div class="setting-block__block-lesson setting-block__block-lesson_large">
+							<div class="setting-block__block-color setting-block__block-color_red"></div>
+							<span class="setting-block__lesson">Правовое обеспечение профессиональной деятельности</span>
+							<span class="setting-block__average-score">2.9</span>
+							<span class="setting-block__percentage-visits">32%</span>
+						</div>
+					</div>
 				</div>
 
 				<div class="setting-block__panel setting-block__panel_mod8">

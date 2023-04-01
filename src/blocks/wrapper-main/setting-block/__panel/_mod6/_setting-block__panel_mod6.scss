@@ -1,12 +1,12 @@
 .setting-block__panel_mod6{
-	grid-template-columns: 40px 1fr 40px 1fr 115px;
+	grid-template-columns: 40px 1fr 50px 2fr 60px;
 	grid-template-rows: repeat(5 , 30px);
 	grid-template-areas: 
 	"img text toggle1 texta img-grid"
-	"img text toggle1 texta btn"
-	"img text toggle2 textb btn"
-	"img text toggle3 textc btn"
-	"img text toggle3 textc btn";
+	"img text toggle1 texta input-btn"
+	"img text toggle2 textb input-btn"
+	"img text toggle3 textc input-btn"
+	"img text toggle3 textc input-btn";
 	justify-items: center;
 	align-items: center;
 }

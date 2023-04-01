@@ -1,0 +1,16 @@
+.setting-block__course{
+	font-size: 18px;
+	font-weight: 700;
+	position: relative;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	border-bottom: 2px solid $color-w4;
+	top: 3px;
+	@media (hover: hover){
+		&:hover{
+			cursor: pointer;
+			transition: 0.5s;
+			border-bottom: 2px solid $color-c4;
+		}
+	}
+}

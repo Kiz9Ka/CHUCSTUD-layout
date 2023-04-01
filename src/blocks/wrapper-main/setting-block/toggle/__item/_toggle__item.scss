@@ -18,13 +18,13 @@
 		top: .05em;
 		left: .05em;
     border-radius: 2em;
-    border: 2px solid #88cf8f;
+    border: 2px solid #01BC35;
 		transition: .3s ease;
 	}
 }
 .toggle {
 	label {
-		background: #af4c4c;
+		background: #FC6969;
     border: .5px solid rgba(117, 117, 117, 0.31);
     box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.2), 0 -3px 4px rgba(0,0,0,0.15);
 		&:before {
@@ -47,7 +47,7 @@
 		}
 	}
 }
-input {
+.toggle__checkbox {
 	height: 20px;
 	left: 0;
 	opacity: 0;
@@ -56,19 +56,19 @@ input {
 	width: 20px;
 }
 	#Public:checked + label {
-		background: #4caf50;
+		background: #01BC35;
 		&:before {
 			left: 20px;
 		}
 	}
 	#Raspis:checked + label {
-		background: #4caf50;
+		background: #01BC35;
 		&:before {
 			left: 20px;
 		}
 	}
 	#Comm:checked + label {
-		background: #4caf50;
+		background: #01BC35;
 		&:before {
 			left: 20px;
 		}
