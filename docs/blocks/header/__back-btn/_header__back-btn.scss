@@ -1,0 +1,14 @@
+.header__back-btn{
+	grid-area: btn;
+	width: 3.3vw;
+	margin-right: 30px;
+	height: 100%;
+	padding: 0;
+	border: none;
+	background:transparent;
+	@media (hover: hover){
+		&:hover{
+			cursor: pointer;
+		}
+	}
+}

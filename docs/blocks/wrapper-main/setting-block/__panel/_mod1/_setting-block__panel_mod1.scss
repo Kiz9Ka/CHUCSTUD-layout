@@ -1,0 +1,8 @@
+.setting-block__panel_mod1{
+	grid-template-columns: 60px 1fr 160px;
+	grid-template-areas: 
+	"img text btn"
+	"img text btn";
+	justify-items: center;
+	align-items: center;
+}

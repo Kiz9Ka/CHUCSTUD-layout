@@ -1,0 +1,13 @@
+.setting-block__lesson{
+	grid-area: lesson;
+	font-size: 20px;
+	font-weight: 700;
+	color: #515050;
+	z-index: 2;
+}
+.setting-block__block-lesson_medium .setting-block__lesson{
+	font-size: 14px;
+}
+.setting-block__block-lesson_large .setting-block__lesson{
+	font-size: 16px;
+}
