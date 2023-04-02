@@ -11,3 +11,5 @@
 В работе так же использовал предпроцессор SASS, Emmet, методологию БЭМ, что ускоряло разработку и масштабирование.
 
 Спасибо за интерес к проекту CHUCSTUD! Если у вас есть какие-либо вопросы или предложения, пожалуйста, не стесняйтесь связаться со мной.
+Макет в Figma - https://www.figma.com/file/0JkL7Y9IDo8FR6z7MncDIt/CHUCSTUD?node-id=0%3A1&t=I7qwAcb0SYKq9B1Y-1
+Сайт на GitHub Pages -https://kiz9ka.github.io/CHUCSTUD/
