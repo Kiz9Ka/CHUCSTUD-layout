@@ -1309,8 +1309,8 @@ pre code {
   min-height: 300px;
   padding-left: 0;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 50px 1fr;
-  grid-template-areas: "panel-title" "panel-course" "panel-score";
+  grid-template-rows: 50px 50px 1px 1fr;
+  grid-template-areas: "panel-title" "panel-course" "hr" "panel-score";
   justify-items: center;
   align-items: center;
 }
@@ -1541,6 +1541,8 @@ pre code {
 }
 
 .setting-block__panel-course {
+  display: flex;
+  justify-content: space-evenly;
   grid-area: panel-course;
   width: 100%;
 }
@@ -1549,10 +1551,8 @@ pre code {
   font-size: 18px;
   font-weight: 700;
   position: relative;
-  margin-left: 3vw;
-  margin-right: 3vw;
   border-bottom: 2px solid #EDEEF0;
-  top: 3px;
+  top: 4px;
 }
 @media (hover: hover) {
   .setting-block__course:hover {
@@ -1560,6 +1560,11 @@ pre code {
     transition: 0.5s;
     border-bottom: 2px solid #1E42FF;
   }
+}
+
+.setting-block__hr-block {
+  grid-area: hr;
+  width: 100%;
 }
 
 .setting-block__panel-score {
@@ -1572,11 +1577,109 @@ pre code {
 }
 
 .setting-block__block-lesson {
+  position: relative;
+  overflow: hidden;
   background: #FFFFFF;
   border: 1px solid #DCE1E6;
   border-radius: 26px;
-  min-height: 120px;
+  min-height: 90px;
   margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "lesson lesson" "average-score percentage-visits";
+  justify-items: center;
+  align-items: center;
+}
+.setting-block__block-lesson:hover span {
+  transition: 0.1s;
+  color: #FFFFFF;
+}
+.setting-block__block-lesson:hover .setting-block__block-color {
+  cursor: pointer;
+  transform: scale(25);
+}
+
+.setting-block__block-color {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  top: -28px;
+  right: -24px;
+  border-radius: 50%;
+  transition: all 1.2s ease;
+}
+
+.setting-block__lesson {
+  grid-area: lesson;
+  font-size: 20px;
+  font-weight: 700;
+  color: #515050;
+  z-index: 2;
+}
+
+.setting-block__block-lesson_medium .setting-block__lesson {
+  font-size: 14px;
+}
+
+.setting-block__block-lesson_large .setting-block__lesson {
+  font-size: 16px;
+}
+
+.setting-block__average-score {
+  grid-area: average-score;
+  font-size: 28px;
+  font-weight: 900;
+  color: #515050;
+  z-index: 2;
+}
+
+.setting-block__percentage-visits {
+  grid-area: percentage-visits;
+  font-size: 28px;
+  font-weight: 900;
+  color: #515050;
+  z-index: 2;
+}
+
+.setting-block__course1 {
+  grid-area: course1;
+}
+
+.setting-block__course2 {
+  grid-area: course2;
+}
+
+.setting-block__course3 {
+  grid-area: course3;
+}
+
+.setting-block__course4 {
+  grid-area: course4;
+}
+
+.setting-block__percentage-visits_green {
+  color: #3ECD5E;
+}
+
+.setting-block__percentage-visits_yellow {
+  color: #F9B234;
+}
+
+.setting-block__percentage-visits_red {
+  color: #FC6969;
+}
+
+.setting-block__average-score_green {
+  color: #3ECD5E;
+}
+
+.setting-block__average-score_yellow {
+  color: #F9B234;
+}
+
+.setting-block__average-score_red {
+  color: #FC6969;
 }
 
 .setting-block__block-lesson_small {
@@ -1589,6 +1692,23 @@ pre code {
 
 .setting-block__block-lesson_large {
   width: 95%;
+}
+.setting-block__block-lesson_large:hover .setting-block__block-color {
+  cursor: pointer;
+  transform: scale(60);
+  transition: all 1.2s ease;
+}
+
+.setting-block__block-color_green {
+  background: #3ECD5E;
+}
+
+.setting-block__block-color_red {
+  background: #FC6969;
+}
+
+.setting-block__block-color_yellow {
+  background: #F9B234;
 }
 
 .separator {

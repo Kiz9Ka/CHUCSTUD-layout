@@ -171,6 +171,9 @@
 @import "../blocks/wrapper-main/setting-block/__panel-course/setting-block__panel-course";
 @import "../blocks/wrapper-main/setting-block/__course/setting-block__course";
 
+//Блок hr
+@import "../blocks/wrapper-main/setting-block/__hr-block/setting-block__hr-block";
+
 //Блок оценок
 @import "../blocks/wrapper-main/setting-block/__panel-score/setting-block__panel-score";
 @import "../blocks/wrapper-main/setting-block/__block-lesson/setting-block__block-lesson";
@@ -180,6 +183,22 @@
 @import "../blocks/wrapper-main/setting-block/__percentage-visits/setting-block__percentage-visits";
 
 //Блок оценок модификаторы
+
+//Модификаторы курсов
+@import "../blocks/wrapper-main/setting-block/__course/__course1/setting-block__course1";
+@import "../blocks/wrapper-main/setting-block/__course/__course2/setting-block__course2";
+@import "../blocks/wrapper-main/setting-block/__course/__course3/setting-block__course3";
+@import "../blocks/wrapper-main/setting-block/__course/__course4/setting-block__course4";
+
+//Модификаторы успеваемости
+@import "../blocks/wrapper-main/setting-block/__percentage-visits/_green/setting-block__percentage-visits_green";
+@import "../blocks/wrapper-main/setting-block/__percentage-visits/_yellow/setting-block__percentage-visits_yellow";
+@import "../blocks/wrapper-main/setting-block/__percentage-visits/_red/setting-block__percentage-visits_red";
+
+//Модификаторы среднего балла
+@import "../blocks/wrapper-main/setting-block/__average-score/_green/setting-block__average-score_green";
+@import "../blocks/wrapper-main/setting-block/__average-score/_yellow/setting-block__average-score_yellow";
+@import "../blocks/wrapper-main/setting-block/__average-score/_red/setting-block__average-score_red";
 
 //Размер блока
 @import "../blocks/wrapper-main/setting-block/__block-lesson/_small/setting-block__block-lesson_small";
@@ -197,6 +216,7 @@
 //Разделительная полоса
 @import "../blocks/main-container/separator/separator"; 
 @import "../blocks/main-container/separator/__course/separator__course";
+
 //Разделительная полоса модификаторы
 @import "../blocks/main-container/separator/_right/separator_right";
 @import "../blocks/main-container/separator/_margin/separator_margin";

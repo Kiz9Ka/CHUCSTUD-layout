@@ -1,3 +1,13 @@
 .setting-block__block-lesson_large{
 	width: 95%;
+	
+	&:hover .setting-block__block-color{
+		cursor: pointer;
+		-webkit-transform: scale(60);
+		-ms-transform: scale(60);
+		transform: scale(60);
+		-webkit-transition: all 1.2s ease;
+		-o-transition: all 1.2s ease;
+		transition: all 1.2s ease;
+	}
 }
