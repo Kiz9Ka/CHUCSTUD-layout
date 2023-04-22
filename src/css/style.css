@@ -676,10 +676,13 @@ pre code {
 }
 
 .header {
+  position: fixed;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  width: 100%;
   height: 50px;
+  z-index: 4;
   background-color: #FFFFFF;
   border-width: 1px 0px;
   border-style: solid;
@@ -709,6 +712,7 @@ pre code {
 }
 .search_margin {
   margin-right: auto;
+  margin-left: 4vw;
 }
 
 .search__icon {
@@ -754,7 +758,8 @@ pre code {
 
 .header__profile-btn {
   grid-area: profile;
-  max-height: 48px;
+  min-height: 48px;
+  width: 48px;
   padding: 0;
   border: none;
   background: transparent;
@@ -777,11 +782,14 @@ pre code {
   flex-wrap: nowrap;
   align-items: flex-start;
   justify-content: space-around;
-  padding-top: 20px;
+  padding-top: 70px;
 }
 
 .navbar {
   width: 18vw;
+  position: sticky;
+  top: 70px;
+  height: 2500px;
 }
 .navbar__menu-btn {
   padding-left: 0px;
@@ -900,6 +908,7 @@ pre code {
   border: 1px solid #DCE1E6;
   border-radius: 26px;
   padding: 10px 0 0 15px;
+  margin-bottom: 20px;
 }
 
 .publication__header {
@@ -1027,8 +1036,11 @@ pre code {
 
 .right-block {
   display: flex;
+  position: sticky;
+  top: 70px;
   flex-direction: column;
   width: 25vw;
+  height: 2500px;
 }
 .right-menu {
   display: flex;
@@ -1709,6 +1721,158 @@ pre code {
 
 .setting-block__block-color_yellow {
   background: #F9B234;
+}
+
+.popup-wrapper {
+  display: block;
+  visibility: visible;
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.619);
+  z-index: 4;
+  opacity: 0;
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.popup-wrapper.show {
+  transition: 2.5s;
+  opacity: 1;
+}
+
+.popup-auth {
+  display: block;
+  visibility: visible;
+  position: fixed;
+  top: 41px;
+  left: 73vw;
+  width: 25vw;
+  min-height: 300px;
+  z-index: 5;
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.popup-auth.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.popup-auth__top-block {
+  background-color: transparent;
+  width: 100%;
+  height: 30px;
+}
+
+.popup-auth__bottom-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  border: 2px solid #447BB1;
+}
+
+.popup-auth__cross-btn {
+  grid-area: input-btn;
+  transition: 0.5s;
+  height: 16px;
+  margin: 4px 4px 0px auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+@media (hover: hover) {
+  .popup-auth__cross-btn:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translateY(0px) translateZ(10px) rotate(90deg);
+  }
+}
+
+.popup-auth__form-auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-auth__img-top {
+  width: 57px;
+  height: 57px;
+  margin-left: 74%;
+}
+
+.popup-auth__input-password {
+  width: 75%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #447BB1;
+  outline: none;
+}
+@media (hover: hover) {
+  .popup-auth__input-password:hover {
+    border-bottom: 2px solid #2688EB;
+  }
+}
+
+.popup-auth__input-submit {
+  margin-top: 25px;
+  background-image: url("../img/page1/Popup/login.svg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 45px;
+  height: 45px;
+  font-weight: 300;
+  border-radius: 10px;
+  border: 0px;
+  transition: 0.5s;
+}
+@media (hover: hover) {
+  .popup-auth__input-submit:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 13px;
+  }
+}
+
+.popup-auth__input-text {
+  width: 75%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #447BB1;
+  outline: none;
+}
+@media (hover: hover) {
+  .popup-auth__input-text:hover {
+    border-bottom: 2px solid #2688EB;
+  }
+}
+
+.popup-auth__link-info {
+  margin: 25px 0 5px 0;
+  font-size: calc(8px + 8 * ((100vw - 320px) / 1120));
+  font-weight: 300;
+  text-decoration: none;
+  color: #447BB1;
+}
+
+.popup-auth__text-input {
+  font-size: calc(8px + 8 * ((100vw - 320px) / 1120));
+  margin: 15px auto 0 12.5%;
+  font-weight: 300;
+}
+
+.popup-auth__text-title {
+  font-size: calc(14px + 14 * ((100vw - 320px) / 1120));
+  margin: 0;
+  padding-top: 5px;
+  font-weight: 400;
 }
 
 .separator {

@@ -210,6 +210,27 @@
 @import "../blocks/wrapper-main/setting-block/__block-color/_red/setting-block__block-color_red";
 @import "../blocks/wrapper-main/setting-block/__block-color//_yellow/setting-block__block-color_yellow";
 
+
+//Popup фон
+@import "../blocks/popup-wrapper/popup-wrapper";
+//Popup окно авторизации
+@import "../blocks/popup-wrapper/popup-auth/popup-auth";
+
+@import "../blocks/popup-wrapper/popup-auth/__top-block/popup-auth__top-block";
+
+@import "../blocks/popup-wrapper/popup-auth/__bottom-block/popup-auth__bottom-block";
+
+@import "../blocks/popup-wrapper/popup-auth/__cross-btn/popup-auth__cross-btn";
+@import "../blocks/popup-wrapper/popup-auth/__cross-svg/popup-auth__cross-svg";
+@import "../blocks/popup-wrapper/popup-auth/__form-auth/popup-auth__form-auth";
+@import "../blocks/popup-wrapper/popup-auth/__img-top/popup-auth__img-top";
+@import "../blocks/popup-wrapper/popup-auth/__input-password/popup-auth__input-password";
+@import "../blocks/popup-wrapper/popup-auth/__input-submit/popup-auth__input-submit";
+@import "../blocks/popup-wrapper/popup-auth/__input-text/popup-auth__input-text";
+@import "../blocks/popup-wrapper/popup-auth/__link-info/popup-auth__link-info";
+@import "../blocks/popup-wrapper/popup-auth//__text-input/popup-auth__text-input";
+@import "../blocks/popup-wrapper/popup-auth/__text-title/popup-auth__text-title";
+
 ////Другое
 
 
