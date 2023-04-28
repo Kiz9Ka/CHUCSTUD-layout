@@ -1778,7 +1778,6 @@ pre code {
 }
 
 .popup-auth__cross-btn {
-  grid-area: input-btn;
   transition: 0.5s;
   height: 16px;
   margin: 4px 4px 0px auto;
@@ -1874,6 +1873,55 @@ pre code {
   margin: 0;
   padding-top: 5px;
   font-weight: 400;
+}
+
+.post-publication {
+  display: flex;
+  display: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #DCE1E6;
+  border-radius: 26px;
+  padding: 10px 15px 0 15px;
+  margin-bottom: 10px;
+}
+
+.post-publication__clip {
+  height: 16px;
+  margin: auto 0 25px 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+@media (hover: hover) {
+  .post-publication__clip:hover {
+    cursor: pointer;
+  }
+}
+
+.post-publication__header-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.post-publication__input {
+  font-size: calc(10px + 10 * ((100vw - 320px) / 1120));
+  border-radius: 8px;
+  resize: none;
+  padding: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 40px;
+  min-height: 40px;
+  width: 89%;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  vertical-align: top;
+  color: #141414;
 }
 
 .separator {

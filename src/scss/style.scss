@@ -231,6 +231,14 @@
 @import "../blocks/popup-wrapper/popup-auth//__text-input/popup-auth__text-input";
 @import "../blocks/popup-wrapper/popup-auth/__text-title/popup-auth__text-title";
 
+//Создание публикации
+@import "../blocks/main-container/post-publication/post-publication";
+@import "../blocks/main-container/post-publication/__clip-svg/post-publication__clip-svg";
+@import "../blocks/main-container/post-publication/__clip/post-publication__clip";
+@import "../blocks/main-container/post-publication/__header-icon/post-publication__header-icon";
+@import "../blocks/main-container/post-publication/__input/post-publication__input";
+@import "../blocks/main-container/post-publication/__svg/post-publication__svg";
+
 ////Другое
 
 
@@ -241,3 +249,5 @@
 //Разделительная полоса модификаторы
 @import "../blocks/main-container/separator/_right/separator_right";
 @import "../blocks/main-container/separator/_margin/separator_margin";
+
+
