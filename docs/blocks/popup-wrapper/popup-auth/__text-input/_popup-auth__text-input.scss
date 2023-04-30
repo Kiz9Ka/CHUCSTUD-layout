@@ -1,0 +1,5 @@
+.popup-auth__text-input{
+	@include adaptiv-font(16, 8);
+	margin: 15px auto 0 12.5%;
+	font-weight: 300;
+}

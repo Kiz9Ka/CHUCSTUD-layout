@@ -1,0 +1,7 @@
+.popup-auth__link-info{
+	margin: 25px 0 5px 0;
+	@include adaptiv-font(16, 8);
+	font-weight: 300;
+	text-decoration: none;
+	color: $color-c1;
+}

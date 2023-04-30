@@ -1,0 +1,16 @@
+.post-publication__input{
+	@include adaptiv-font(20, 10);
+  border-radius: 8px;
+  resize: none;
+  padding: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 40px;
+  min-height: 40px;
+	width: 89%;
+  margin-bottom: 15px;
+	border: none;
+	outline:none;
+	vertical-align:top;
+	color: $color-d3;
+}

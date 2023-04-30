@@ -1,5 +1,8 @@
 .navbar{
 	width: 18vw;
+	position: sticky;
+	top: 70px;
+	height: 2500px;
 	@media (min-width: $screen-xxl){
 	}
 }

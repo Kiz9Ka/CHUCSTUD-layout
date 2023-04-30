@@ -1,6 +1,7 @@
 .header__profile-btn{
 	grid-area: profile;
-	max-height: 48px;
+	min-height: 48px;
+	width: 48px;
 	padding: 0;
 	border: none;
 	background:transparent;
