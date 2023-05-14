@@ -1,17 +1,12 @@
 import express from 'express'
-import mongoose from 'mongoose'
 import { loginValidation, registerValidation } from './validations/auth.js'
 import { postCreateValidation } from './validations/post.js'
 import checkAuth from './utils/checkAuth.js'
 import * as UserController from './controllers/UserController.js'
 import * as PostController from './controllers/PostController.js'
-mongoose
-	.connect(
-		'mongodb+srv://Kiz9Ka:wwwww@chucstud.s5dkafd.mongodb.net/CHUCSTUD?retryWrites=true&w=majority'
-	)
-	.then(() => console.log('BD OK'))
-	.catch(err => console.log('BD error1111111', err))
+import { connect } from './controllers/ConnectDB.js'
 
+connect();
 const app = express()
 
 app.use(express.json())
