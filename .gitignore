@@ -1,5 +1,5 @@
 src/backend/controllers/ConnectDB.js
-src/backend/mode_modules
+src/backend/node_modules
 
 # dep
 ./.vs
