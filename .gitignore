@@ -1,0 +1,7 @@
+src/backend/controllers/ConnectDB.js
+src/backend/mode_modules
+
+# dep
+./.vs
+./docs
+./.vscode
