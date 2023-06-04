@@ -1,4 +1,4 @@
-# Добро пожаловать в репозиторий проекта CHUCSTUD!
+# Добро пожаловать в репозиторий проекта CHUCSTUD! (ВЁРСТКА)
 
 Меня зовут Звягинцев Кирилл Алексеевич, это моя дипломная работа на тему: "Разработка ИС «Помощь в обучении» для студентов колледжа".
 
@@ -16,4 +16,4 @@
 
 Макет в Figma - https://www.figma.com/file/0JkL7Y9IDo8FR6z7MncDIt/CHUCSTUD?node-id=0%3A1&t=I7qwAcb0SYKq9B1Y-1
 
-Сайт на GitHub Pages -https://kiz9ka.github.io/CHUCSTUD/
+Сайт на GitHub Pages - [kiz9ka.github.io/CHUCSTUD-layout/](https://kiz9ka.github.io/CHUCSTUD-layout/)
