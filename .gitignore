@@ -1,6 +1,3 @@
-src/backend/controllers/ConnectDB.js
-src/backend/node_modules
-
 # dep
 ./.vs
 ./docs
