@@ -1,0 +1,17 @@
+.setting-block__input-btn{
+	grid-area: input-btn;
+	height: 50%;
+	width: 50px;
+	transition: 0.5s;
+	margin-right: auto;
+	padding: 0;
+	border: none;
+	background:transparent;
+	@media (hover: hover){
+		&:hover{
+			cursor: pointer;
+			transition: 0.5s;
+			padding-left: 13px;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.setting-block__panel_mod7{
+	max-height: none;
+	min-height: 300px;
+	padding-left: 0;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 50px 1px 1fr;
+	grid-template-areas: 
+	"panel-title"
+	"panel-course"
+	"hr"
+	"panel-score";
+	justify-items: center;
+	align-items: center;
+}

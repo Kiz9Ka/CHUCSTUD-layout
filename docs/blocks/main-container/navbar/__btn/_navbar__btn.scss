@@ -1,0 +1,19 @@
+.navbar__btn{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 17vw;
+	height: 30px;
+	@media (min-width: $screen-xxl){
+		height: 45px;
+	}
+	@media (hover: hover){
+		&:hover{
+			border-radius: 5px;
+			transition: 0.3s;
+			cursor: pointer;
+			background-color: $color-w5;
+		}
+	}
+}

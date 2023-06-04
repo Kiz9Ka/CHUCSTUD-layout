@@ -1,0 +1,12 @@
+.navbar__svg_small{
+	margin: 0;
+	width: 8px;
+	height: 8px;
+	margin-left: 0.5vw;
+	filter: invert(66%) sepia(16%) saturate(268%) hue-rotate(173deg) brightness(87%) contrast(79%);
+	@media (min-width: $screen-xxl){
+		width: 12px;
+		height: 12px;
+		margin-left: 0.2vw;
+	}
+}

@@ -1,0 +1,8 @@
+.setting-block__img_active{
+	margin-bottom: 0px;
+	@media (hover: hover){
+		&:hover{
+			cursor: pointer;
+		}
+	}
+}

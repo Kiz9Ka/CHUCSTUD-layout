@@ -1,0 +1,12 @@
+.right-menu{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	width: 100%;
+	margin-bottom: 10px;
+	background: $color-w1;
+	border: 1px solid $color-w5;
+	border-radius: 26px;
+	padding: 10px 0 0 10px;
+}

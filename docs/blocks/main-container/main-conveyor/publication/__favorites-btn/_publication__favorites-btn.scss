@@ -1,0 +1,14 @@
+.publication__favorites-btn{
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+	min-width: 10px;
+	height: 32px;
+	border: none;
+	border-radius: 32px;
+	&:hover{
+		background-color: $color-w14;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+}

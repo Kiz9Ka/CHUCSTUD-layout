@@ -1,0 +1,17 @@
+.header{
+	position: fixed;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	z-index: 4;
+	background-color: $color-w1;
+	border-width: 1px 0px;
+	border-style: solid;
+	border-color: $color-w5;
+	padding-left: 1.3vw;
+	@media (min-width: $screen-xxl){
+		height: 75px;
+	}
+}

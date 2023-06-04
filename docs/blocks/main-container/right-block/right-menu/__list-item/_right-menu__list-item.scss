@@ -1,0 +1,17 @@
+.right-menu__list-item{
+	width: 22vw;
+	min-height: 30px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	border-radius: 10px;
+	color: $color-w9;
+	@media (min-width: $screen-xxl){
+		
+	}
+	&:hover{
+		background-color: $color-w2;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+}
